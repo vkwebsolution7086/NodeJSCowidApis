@@ -1,0 +1,11 @@
+### Add member api.
+POST http://localhost:3000/cowid-19/addmember
+x-auth-token: {{token}}
+@Variables = 
+{ 
+    "photoIdProof": "Aadhar card", 
+    "photoIdNumber": "489098080801",
+    "name":"vishalkumar mukeshbhai",
+    "gender":"male",
+    "yearOfBirth":1999 
+}
